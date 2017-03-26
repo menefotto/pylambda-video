@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.0", 
+      "eventTime": "1970-01-01T00:00:00.000Z", 
+      "requestParameters": {
+        "sourceIPAddress": "127.0.0.1"
+      }, 
+      "s3": {
+        "configurationId": "testConfigRule", 
+        "object": {
+          "eTag": "a91cec813b1c1e1d735a1892a3b8ef06",
+          "key": "videos/test.mp4", 
+          "sequencer": "0A1B2C3D4E5F678901", 
+          "size": 10909830
+        }, 
+        "bucket": {
+          "ownerIdentity": {
+            "principalId": "EXAMPLE"
+          }, 
+          "name": "waterandboards", 
+          "arn": "arn:aws:s3::912947952798:waterandboards"
+        }, 
+        "s3SchemaVersion": "1.0"
+      }, 
+      "responseElements": {
+        "x-amz-id-2": "EXAMPLE123/5678abcdefghijklambdaisawesome/mnopqrstvwxyzABCDEFGH", 
+        "x-amz-reqest-id": "EXAMPLE123456789"
+      }, 
+      "awsRegion": "eu-central-1", 
+      "eventName": "ObjectCreated:Put", 
+      "userIdentity": {
+        "principalId": "EXAMPLE"
+      }, 
+      "eventSorce": "aws:s3"
+    }
+  ]
+}

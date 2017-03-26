@@ -1,0 +1,14 @@
+region: eu-central-1
+
+function_name: video_converter
+handler: service.handler
+role: service-role/s3_role
+description: A function to convert from video to other video
+
+# if access key and secret are left blank, boto will use the credentials
+# defined in the [default] section of ~/.aws/credentials.
+aws_access_key_id : AKIAJGOQNVZZ5WA2CWCQ
+aws_secret_access_key : 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
+# dist_directory: dist
+timeout: 300
+memory_size: 1536

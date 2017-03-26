@@ -1,0 +1,25 @@
+
+"""
+    print("Startinpg to download {}.".format(key))
+    t1 = time.time()
+    try:
+        s3.download_file(bucket, key, inp)
+    except Exception as e:
+        message["error"] = e
+        return message
+    t2 = time.time()
+    print("Downloads file form bucket inp: {0:.2f} seconds...".format(t2 - t1))
+"""
+
+
+"""
+    print("Startinpg {} upload.".format(out))
+    t1 = time.time()
+    try:
+        s3.upload_file(out, bucket, "1000" + key)
+    except Exception as e:
+        message["error"] = e
+        return message
+    t2 = time.time()
+    print("Uploaded file to bucket inp: {0:.2f} seconds...".format(t2 - t1))
+"""
